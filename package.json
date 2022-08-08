@@ -1,0 +1,25 @@
+{
+  "name": "coder-37200",
+  "version": "1.0.0",
+  "description": "Este es el repositorio de mi clase coderhouse comisión 37200.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedegilles/coder-37200.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedegilles/coder-37200/issues"
+  },
+  "homepage": "https://github.com/fedegilles/coder-37200#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
